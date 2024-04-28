@@ -1,0 +1,47 @@
+header {
+    display: flex; /* Aplica la propiedad flex al contenedor para permitir el uso de flexbox */
+    justify-content: center; /* Centra horizontalmente los elementos hijos dentro del contenedor */
+    align-items: center; /* Centra verticalmente los elementos hijos dentro del contenedor */
+    background-color: rgb(17, 17, 48); /* Establece el color de fondo del encabezado */
+}
+
+header img {
+    width: 100px; /* Establece el ancho de la imagen */
+    margin-left: 10px; /* Establece el margen izquierdo de la imagen */
+    filter: brightness(500%); /* Aplica un filtro de brillo a la imagen */
+}
+
+nav {
+    margin: 0 auto; /* Establece un margen superior e inferior de 0 y un margen izquierdo y derecho automático para centrar el elemento */
+}
+
+ul {
+    display: flex; /* Aplica la propiedad flex al contenedor de la lista para permitir el uso de flexbox */
+    justify-content: center; /* Centra horizontalmente los elementos hijos dentro del contenedor */
+    font-size: 1.5rem; /* Establece el tamaño de fuente para los elementos de la lista */
+}
+
+h1 {
+    font-size: 3rem; /* Establece el tamaño de fuente del encabezado h1 */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    font-family: 'roboto'; /* Establece la fuente del texto */
+    color: white; /* Establece el color del texto */
+    text-align: center; /* Centra el texto horizontalmente dentro del elemento */
+}
+
+a {
+    margin: 20px; /* Establece el margen exterior de los enlaces */
+    color: white; /* Establece el color del texto del enlace */
+    font-family: 'lexend'; /* Establece la fuente del texto del enlace */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    transition: all 0.4s; /* Aplica una transición suave a todos los cambios de propiedades */
+}
+
+a:hover {
+    color: orange; /* Cambia el color del texto del enlace al pasar el mouse sobre él */
+}
+
+li {
+    margin-top: 20px; /* Establece el margen superior de los elementos de la lista */
+    margin-bottom: 10px; /* Establece el margen inferior de los elementos de la lista */
+}
